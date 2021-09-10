@@ -6,17 +6,17 @@ public class ex {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.out.print("2ÀÚ¸®¼ö Á¤¼ö ÀÔ·Â(10~99)>>");
+		System.out.print("2ìžë¦¬ìˆ˜ ì •ìˆ˜ ìž…ë ¥(10~99)>>");
 		int num=-1;
 		
 		Scanner scan = new Scanner(System.in);
 		
-		num=scan.nextInt(); //Á¤¼ö ÀÔ·Â 
+		num=scan.nextInt(); //ì •ìˆ˜ ìž…ë ¥ 
 		if(10<=num&&num<=99) {
 			if(num%10==num/10)
-				System.out.println("Yes! 10ÀÇ ÀÚ¸®¿Í 1ÀÇ ÀÚ¸®°¡ °°½À´Ï´Ù.");
+				System.out.println("Yes! 10ì˜ ìžë¦¬ì™€ 1ì˜ ìžë¦¬ê°€ ê°™ìŠµë‹ˆë‹¤.");
 			else
-				System.out.println("No, 10ÀÇ ÀÚ¸®¿Í 1ÀÇ ÀÚ¸®°¡ ´Ù¸¨´Ï´Ù.");
+				System.out.println("No, 10ì˜ ìžë¦¬ì™€ 1ì˜ ìžë¦¬ê°€ ë‹¤ë¦…ë‹ˆë‹¤.");
 		}
 	}
 }
