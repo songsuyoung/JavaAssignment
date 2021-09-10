@@ -8,18 +8,18 @@ public class ex3 {
 		int p1_x,p1_y;
 		int p2_x,p2_y;
 		Scanner scan = new Scanner(System.in);
-		System.out.print("Á¡ p1ÀÇ xÁÂÇ¥,yÁÂÇ¥ ÀÔ·Â:");
+		System.out.print("ì  p1ì˜ xì¢Œí‘œ,yì¢Œí‘œ ì…ë ¥:");
 		p1_x=scan.nextInt();
 		p1_y=scan.nextInt();
-		System.out.print("Á¡ p2ÀÇ xÁÂÇ¥,yÁÂÇ¥ ÀÔ·Â:");
+		System.out.print("ì  p2ì˜ xì¢Œí‘œ,yì¢Œí‘œ ì…ë ¥:");
 		p2_x=scan.nextInt();
 		p2_y=scan.nextInt();
 		
 		if(inRect(100,200,p1_x,p1_y,p2_x,p2_y)) {
-			System.out.println("Ãæµ¹");
+			System.out.println("ì¶©ëŒ");
 		}
 		else
-			System.out.println("¹ÌÃæµ¹");
+			System.out.println("ë¯¸ì¶©ëŒ");
 		
 	}
 	
