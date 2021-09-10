@@ -4,22 +4,22 @@ public class ex2 {
 
 	public static void main(String[] args) {
 		
-		System.out.print("1~99 »çÀÌÀÇ Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À>>");
+		System.out.print("1~99 ì‚¬ì´ì˜ ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤>>");
 		Scanner scan = new Scanner(System.in);
 		int num;
-		num=scan.nextInt(); //Á¤¼öÇü ÀÔ·Â¹Ş±â
+		num=scan.nextInt(); //ì •ìˆ˜í˜• ì…ë ¥ë°›ê¸°
 		
 		int div=num/10;
 		int mod=num%10;
 		
 		if(mod==3||mod==6||mod==9) {
-			System.out.print("¹Ú¼öÂ¦");
+			System.out.print("ë°•ìˆ˜ì§");
 			if(div==3||div==6||div==9) {
-				System.out.print("Â¦");
+				System.out.print("ì§");
 			}		
 		}else {
 			if(div==3||div==6||div==9) {
-				System.out.print("¹Ú¼öÂ¦");
+				System.out.print("ë°•ìˆ˜ì§");
 			}
 		}
 	}
