@@ -16,22 +16,22 @@ public class ex4 {
 		int cir1_y;
 		int radius1;
 		
-		System.out.print("Ã¹¹øÂ° ¿øÀÇ Áß½É°ú ¹ÝÁö¸§ ÀÔ·Â>> ");
+		System.out.print("ì²«ë²ˆì§¸ ì›ì˜ ì¤‘ì‹¬ê³¼ ë°˜ì§€ë¦„ ìž…ë ¥>> ");
 		cir_x=scan.nextInt();
 		cir_y=scan.nextInt();
 		radius=scan.nextInt();
 
-		System.out.print("µÎ¹øÂ° ¿øÀÇ Áß½É°ú ¹ÝÁö¸§ ÀÔ·Â>> ");
+		System.out.print("ë‘ë²ˆì§¸ ì›ì˜ ì¤‘ì‹¬ê³¼ ë°˜ì§€ë¦„ ìž…ë ¥>> ");
 		cir1_x=scan.nextInt();
 		cir1_y=scan.nextInt();
 		radius1=scan.nextInt();
 		
 		if(Math.sqrt(Math.pow(cir_x-cir1_x,2)+Math.pow(cir_y-cir1_y,2))<radius+radius1)
-			System.out.println("µÎ ¿øÀº ¼­·Î °ãÄ£´Ù.");
+			System.out.println("ë‘ ì›ì€ ì„œë¡œ ê²¹ì¹œë‹¤.");
 		else
-			System.out.println("µÎ ¿øÀº °ãÄ¡Áö ¾Ê´Â´Ù.");
+			System.out.println("ë‘ ì›ì€ ê²¹ì¹˜ì§€ ì•ŠëŠ”ë‹¤.");
 		
-		//µÎ Á¡ »çÀÌÀÇ °Å¸®°¡ µÎ ¿øÀÇ ¹ÝÁö¸§À» ´õÇÑ °ªº¸´Ù ÀÛÀ¸¸é µÎ¿øÀº ¼­·Î °ãÄ£´Ù.
+		//ë‘ ì  ì‚¬ì´ì˜ ê±°ë¦¬ê°€ ë‘ ì›ì˜ ë°˜ì§€ë¦„ì„ ë”í•œ ê°’ë³´ë‹¤ ìž‘ìœ¼ë©´ ë‘ì›ì€ ì„œë¡œ ê²¹ì¹œë‹¤.
 		
 	}
 
